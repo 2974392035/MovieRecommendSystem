@@ -13,15 +13,7 @@ import org.elasticsearch.common.settings.Settings
 import org.elasticsearch.common.transport.InetSocketTransportAddress
 import org.elasticsearch.transport.client.PreBuiltTransportClient
 
-/**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: MovieRecommendSystem
-  * Package: com.atguigu.recommender
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/4/1 15:51
-  */
+
 
 /**
   * Movie 数据集
@@ -76,9 +68,9 @@ case class ESConfig(httpHosts:String, transportHosts:String, index:String, clust
 object DataLoader {
 
   // 定义常量
-  val MOVIE_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\movies.csv"
-  val RATING_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\ratings.csv"
-  val TAG_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\tags.csv"
+  val MOVIE_DATA_PATH = "E:\\movie\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\movies.csv"
+  val RATING_DATA_PATH = "E:\\movie\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\ratings.csv"
+  val TAG_DATA_PATH = "E:\\movie\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\tags.csv"
 
   val MONGODB_MOVIE_COLLECTION = "Movie"
   val MONGODB_RATING_COLLECTION = "Rating"
